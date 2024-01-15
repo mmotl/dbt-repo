@@ -1,4 +1,4 @@
 SELECT 
     *
 FROM 
-    {{ ref(stg_flights) }}
+    {{ ref('stg_flights') }}
